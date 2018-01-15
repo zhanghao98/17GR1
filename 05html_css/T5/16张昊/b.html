@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<table border="1" width="600">
+			<tr>
+				<td align="center" colspan="6">证券调查示例</td>
+			</tr>
+			<tr>
+				<td colspan="3" align="right">投资经验：</td>
+				<td>
+					新手<input type="radio" name="ra" checked="新手" />
+					中期<input type="radio" name="ra"  />
+					专家<input type="radio" name="ra"  />
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" align="right">投资方式：</td>
+				<td>
+					股票<input type="checkbox" value="1" />
+					期货<input type="checkbox" value="2" />
+					基金<input type="checkbox" value="3" />
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" align="right">购买股票的方式：</td>
+				<td>
+					<select>
+						<optgroup>
+							<option value="网上">网上</option>
+							<option value="交易所">交易所</option>
+						</optgroup>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" align="right">今天关注的股票：</td>
+				<td>
+					<input type="text" value="" /><font color="red">*</font>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="1" colspan="3" align="right">你对投资者的意见：</td>
+				<td>
+					<textarea cols="20" rows="4"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="9" align="center">
+					<input type="submit" name="su" value="提交" />
+					<input type="reset"  name="re" value="撤销"/>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

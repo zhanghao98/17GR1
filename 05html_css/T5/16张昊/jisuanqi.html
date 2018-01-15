@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			function xianshi(num){
+				if(t1.value=="" ||t1.value==null ||t1.value==undefined){
+					t1.value=parseInt(num);
+				}else{
+				t3.value=parseInt(num);	
+				}
+				
+			}
+			function fuhao(fh){
+				t2.value=fh;
+			}
+			function jjcc(){
+				var a,b,c;
+				a=t1.value;
+				b=t2.value;
+				c=t3.value;
+				if(b=="+"){
+					t4.value=a + c;
+				}
+				if(b=="-"){
+					t4.value=a-c;
+			}
+				if(b=="*"){
+					t4.value=a*c;
+				}
+				if(b=="/"){
+					t4.value=a/c;
+				}
+			}
+		</script>
+		<form>
+			<input type="text" id="t1" size="6" />
+			<input type="text" id="t2" size="1" />
+			<input type="text" id="t3" size="6"/>
+			<input type="text" id="t4" size="6"/><br />
+			
+			<input type="button" value="7" onclick="xianshi(this.value)"/>
+			<input type="button" value="8" onclick="xianshi(this.value)"/>
+			<input type="button" value="9" onclick="xianshi(this.value)"/>
+			<br />
+			<input type="button" value="4" onclick="xianshi(this.value)"/>
+			<input type="button" value="5" onclick="xianshi(this.value)"/>
+			<input type="button" value="6" onclick="xianshi(this.value)"/>
+			<br />
+			<input type="button" value="1" onclick="xianshi(this.value)"/>
+			<input type="button" value="2" onclick="xianshi(this.value)"/>
+			<input type="button" value="3" onclick="xianshi(this.value)"/>
+			<br />
+			<input type="button" value="0" onclick="xianshi(this.value)"/>
+			<input type="button" value="+" onclick="fuhao(this.value)"/>
+			<input type="button" value="-" onclick="fuhao(this.value)"/>
+			<br />
+			<input type="button" value="*" onclick="fuhao(this.value)"/>
+			<input type="button" value="/" onclick="fuhao(this.value)"/>
+			<input type="button" value="=" onclick="jjcc()"/>
+			<br />
+		</form>
+	</body>
+</html>

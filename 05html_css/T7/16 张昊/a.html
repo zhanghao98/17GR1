@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		#j1{
+			border: 1px soild red;
+			background: bisque;
+			color: aquamarine;
+			width: 200px;
+			height: 50px;
+			padding: 0px 0px 0px ;
+		}
+	.z1{
+		position: relative;left: 180px;
+	}
+	.z2{
+		position: relative;left: 300px;
+	}
+	#j2{
+		border: 1px;
+		background: black;
+		color: white;
+		width: 100%;
+		height: 30px;
+		padding: 10px;
+	}
+	#j3{
+		border: 1px;
+		width: 100s%;
+		height:30px ;
+	}
+	
+	</style>
+	</head>
+	<body onload="init()">
+		<div>
+			
+				<div  style="padding-left: 20px" >
+					<img src="img/logo1.png"  />
+					<img  height="80px" src="img/header.jpg" style="padding-left:150px;"  />
+					<div style="float: right;padding-right:100px ;padding-top: 40px;">
+					<font size="5"><a href="#">登录</a>
+					<a href="#">注册</a>
+					<a href="#">购物车</a>
+					</font>
+					</div>
+				</div>
+				
+			
+			
+			<div id="j2"  >
+				<font size="5">
+				<a href="#" style="color: white;">首页</a>
+				<a href="#" style="color: white;">商城</a>
+				<a href="#" style="color: white;">社区</a>
+				<a href="#" style="color: white;">资讯</a>
+				<a href="#" style="color: white;">门店</a>
+				</font>
+			</div>
+			<div >
+			<img src="img/1.jpg" id="iml" width="101%" style="margin-top: 5px;"/>
+		</div>
+			<div id="j3">
+				<font size="6" color="black">热门商品</font>
+				根据你的喜好精心为你推荐！
+			</div>
+			<div>
+				<table width="100%"  >
+					<tr align="center">
+						<td rowspan="4" align="left" >
+							<img src="img/big01.jpg" />
+							
+						</td>
+						<td colspan="3" rowspan="2">
+							<img src="img/middle01.jpg" />
+						</td>
+						<td>
+							<img src="img/small08.jpg" />
+						</td>
+						<td>
+							<img src="img/small08.jpg" />
+						</td>
+						<td>
+							<img src="img/small08.jpg" />
+						</td>
+					</tr>
+					<tr  align="center">
+						<td>电饭煲<br />200</td>
+						<td>电饭煲<br />200</td>
+						<td>电饭煲<br />200</td>
+					</tr>
+					<tr  align="center">
+						
+					
+					<td>
+							<img src="img/small08.jpg" />
+						</td>
+					<td>
+							<img src="img/small08.jpg" />
+						</td>
+						<td>
+							<img src="img/small08.jpg" />
+						</td>
+						<td>
+							<img src="img/small08.jpg" />
+						</td>
+						<td>
+							<img src="img/small08.jpg" />
+						</td>
+						<td>
+							<img src="img/small08.jpg" />
+						</td>
+						</tr >
+					<tr align="center">
+						<td>电饭煲<br />200</td>
+						<td>电饭煲<br />200</td>
+						<td>电饭煲<br />200</td>
+						<td>电饭煲<br />200</td>
+						<td>电饭煲<br />200</td>
+						<td>电饭煲<br />200</td>
+					</tr>
+					
+				</table>
+			</div>
+				<div>
+					<img src="img/ad.jpg" width="100%" /><br />
+					<img src="img/footer.jpg" width="100%" /><br />
+					<p align="center">关于我们 关于我们 关于我们 关于我们 关于我们</p>
+					<p align="center"> 关于我们 关于我们 关于我们 关于我们 关于我们 关于我们</p>
+				</div>
+					
+			
+			
+			
+		</div>
+	</body>
+	<script>
+		var i=1;
+		function lunbo(){
+			var a = document.getElementById("iml")
+			a.src="img/"+i+".jpg"
+			i++;
+			if(i>3){
+				i=1;
+			}
+		}
+		function init(){
+			setInterval(lunbo,1000)
+		}
+	</script>
+</html>

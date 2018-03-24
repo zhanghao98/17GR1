@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	height: 100%;
+}
+a{
+	text-decoration: none;
+	color: black;
+	
+}
+.wrap{
+	text-align: center;
+	margin: 0 auto;
+}
+.nav li{
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 10px solid cadetblue;
+	margin-top: 100px;
+	margin-left: -80px;
+	transition:transform 0.3s linear;
+}
+.nav li a{
+	/*line-height: 200px;*/
+}
+.nav li:nth-child(1){
+	background: burlywood;
+	border-color: cadetblue;
+}
+.nav li:nth-child(2){
+	background: gold;
+	border-color: yellow;
+}
+.nav li:nth-child(3){
+	background: blueviolet;
+	border-color: blue;
+}
+.nav li:nth-child(4){
+	background: darkolivegreen;
+	border-color: darkgreen;
+}
+.nav li:nth-child(5){
+	background: orangered;
+	border-color: olivedrab;
+}
+.nav ul li:hover{
+	background: cyan;
+	border-color: cornsilk;
+	transform: scale(1.1);
+	z-index: 100;
+}
+.nav li a span:first-of-type{
+	display: block;
+	/*margin-top:90px ;*/
+	font-family:'LigatureSymbols';
+	line-height:200px ;
+	font-size:100px ;
+}
+.nav li a span:last-of-type{
+	font-size: 30px;
+}
+@font-face {
+	font-family:'LigatureSymbols';
+	src: url(../img/LigatureSymbols.eot);
+	src: url(../img/LigatureSymbols.svg);
+	src: url(../img/LigatureSymbols.ttf);
+	src: url(../img/LigatureSymbols.woff);
+}

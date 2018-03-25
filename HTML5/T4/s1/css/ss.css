@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+
+.header-top{
+ width: 100%;
+ height: 90px;
+
+ border: solid 1px white;
+}
+.top, .top-nav, .top-nav li, .header-right{
+	vertical-align: top;
+	display: inline-block;
+	height: 90px;
+}
+.top{
+		margin-left: 15%;
+		top: 40px;
+}
+.top-nav{
+	margin: 0 48px;
+	
+}
+.top-nav li{
+	width: 110px;
+	line-height: 50px;
+}
+.top-nav li a{
+	display: block;
+	text-align: center;
+	font-size: 16px;
+}
+.header-right a{
+	display: inline-block;
+	border-radius: 35px;
+	color: blue;
+	border: blue solid 1px;
+	margin-top: 18px;
+	margin-right: 30px;
+}
+.header-right a;first-of-type{
+	width: 100px;
+	line-height: 40px;
+}
+.header-right{
+	margin-left: 90px;
+}

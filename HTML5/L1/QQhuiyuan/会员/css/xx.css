@@ -1,0 +1,211 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+.wrap{
+	margin: 0 auto;
+	text-align: center;
+}
+.header-top{
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	z-index: 100;
+	left: 0;
+	top: 0;
+	background: rgba(0,0,0,.6);
+}
+.header-logo, .header-nav, .header-nav li , .header-right{
+	display: inline-block;
+	height: 90px;
+	vertical-align: top;	
+}
+.header-logo{
+	margin-right: 48px;
+}
+.header-nav li{
+	margin-left: 10px;
+	line-height: 90px;
+}
+.header-nav li a{
+	color: white;
+	font-size: 20px;
+}
+.header-nav li a:hover{
+	color: red;
+}
+.header-right{
+	margin-left: 40px;
+	margin-top: 30px;
+	line-height: 30px;
+}
+.header-right a{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	border: solid 1px red;
+	border-radius: 30px;
+	color: white;
+}
+.header-right a:first-of-type{
+	width: 80px;
+}
+.header-right a:last-of-type{
+	background: greenyellow;
+}
+.header-right a:hover{
+	background: gold;
+}
+.sec2 {
+	
+	height:820px;
+	background:url(../img/bg_2.jpg) no-repeat center top;
+}
+
+.sec2 .figure-2 {
+	position:absolute;
+	z-index:5;
+	width:720px;
+	height:897px;
+	left:45%;
+	top:-66px;
+	background:url(../img/figure_2.png) no-repeat -427px 155px;
+}
+.figure-list a {
+	position:absolute;
+	z-index:5;
+	width:100px;
+	height:100px;
+	left:50%;
+	background:url(../img/sprites_function_feature.png) no-repeat;
+}
+.figure-list a.icon-1 {
+	background-position:0 0;
+	top:595px;
+	margin-left:100px;
+}
+.figure-list a.icon-2 {
+	background-position:0 -110px;
+	top:595px;
+	margin-left:330px;
+	transform:scale(1.3);
+}
+.figure-list a.icon-3 {
+	background-position:0 -220px;
+	top:500px;
+	margin-left:500px;
+}
+.figure-list a.icon-4 {
+	background-position:0 -330px;
+	z-index:1;
+	top:365px;
+	margin-left:420px;
+	transform:scale(0.8);
+}
+.figure-list a.icon-5 {
+	background-position:0 -440px;
+	z-index:1;
+	top:305px;
+	margin-left:250px;
+	transform:scale(0.6);
+}
+.figure-list a.icon-6 {
+	background-position:0 -550px;
+	z-index:1;
+	top:313px;
+	margin-left:90px;
+	transform:scale(0.4);
+}
+.figure-list a.icon-7 {
+	background-position:0 -880px;
+	top:545px;
+	margin-left:-90px;
+	transform:scale(0.7);
+}
+.figure-list a.icon-8 {
+	background-position:0 -770px;
+	top:450px;
+	margin-left:-170px;
+	transform:scale(0.6);
+}
+.figure-list a.icon-9 {
+	background-position:0 -660px;
+	top:350px;
+	margin-left:-70px;
+	transform:scale(0.5);
+}
+.footer{
+	width: 100%;
+	height: 320px;
+	background:#302f37;
+	text-align:center;
+}
+.footer nav li{
+	width: 100px;
+	height: 85px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top:40px ;
+}
+.footer nav li span:first-of-type{
+	background: url(../img/sprites_footer.png);
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+.footer-nav ul li:nth-of-type(1) span:first-of-type{
+	background-position: 0px 0px;
+}
+.footer-nav ul li:nth-of-type(1) span:first-of-type:hover{
+	background-position: -100px 0px;
+}
+.footer-nav ul li:nth-of-type(2) span:first-of-type{
+	background-position: 0px -100px;
+}
+.footer-nav ul li:nth-of-type(2) span:first-of-type:hover{
+	background-position: -100px -100px;
+}
+.footer-nav ul li:nth-of-type(3) span:first-of-type{
+	background-position: 0px -200px;
+}
+.footer-nav ul li:nth-of-type(3) span:first-of-type:hover{
+	background-position: -100px -200px;
+}
+.footer-nav ul li:nth-of-type(4) span:first-of-type{
+	background-position: 0px -300px;
+}
+.footer-nav ul li:nth-of-type(4) span:first-of-type:hover{
+	background-position: -100px -300px;
+}
+.footer-nav ul li:nth-of-type(5) span:first-of-type{
+	background-position: 0px -400px;
+}
+.footer-nav ul li:nth-of-type(5) span:first-of-type:hover{
+	background-position: -100px -400px;
+}
+.footer-nav ul li:nth-of-type(6) span:first-of-type{
+	background-position: 0px -500px;
+}
+.footer-nav ul li:nth-of-type(6) span:first-of-type:hover{
+	background-position: -100px -500px;
+}
+.footer-nav ul li:nth-of-type(7) span:first-of-type{
+	background-position: 0px -600px;
+}
+.footer-nav ul li:nth-of-type(7) span:first-of-type:hover{
+	background-position: -100px -600px;
+}
+
+.div1 p {
+	font-size:12px;
+	line-height:1.8;
+	color:#9d9d9d;
+	position: relative;
+	top: 40px
+}
